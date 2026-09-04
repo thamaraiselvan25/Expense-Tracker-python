@@ -19,7 +19,6 @@ A desktop-based Expense Tracker application developed using Python.
 - CSV export
 - PDF report generation
 - SQLite database
-- 
 - Professional Tkinter graphical user interface
 
 ## Technologies Used
