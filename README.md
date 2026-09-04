@@ -38,7 +38,7 @@ A desktop-based Expense Tracker application developed using Python.
 4. Run the following command:
 
 ```bash
-python ExpenseTracker_FINAL_WORKING.py
+python main.py
 ## Project Purpose
 
 The purpose of this project is to develop a simple and user-friendly desktop application for managing personal expenses. The application helps users record, organize, search, analyze, and monitor their daily expenses. It also provides budget tracking, recurring expense management, analytics, CSV export, and PDF report generation to make personal expense management easier and more organized.
