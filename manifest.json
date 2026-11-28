@@ -1,0 +1,40 @@
+{
+  "name": "Pro Finance & Expense Tracker",
+  "short_name": "ExpenseTracker",
+  "start_url": "/Expense-Tracker-python/",
+  "scope": "/Expense-Tracker-python/",
+  "display": "standalone",
+  "background_color": "#f4f6f9",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "./icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Add Expense",
+      "short_name": "Add Expense",
+      "url": "/Expense-Tracker-python/?action=add",
+      "icons": [{ "src": "./icon.png", "sizes": "512x512" }]
+    },
+    {
+      "name": "Paste Bank SMS",
+      "short_name": "Import SMS",
+      "url": "/Expense-Tracker-python/?action=sms",
+      "icons": [{ "src": "./icon.png", "sizes": "512x512" }]
+    }
+  ],
+  "share_target": {
+    "action": "/Expense-Tracker-python/",
+    "method": "GET",
+    "params": {
+      "title": "title",
+      "text": "shared_sms",
+      "url": "url"
+    }
+  }
+}
